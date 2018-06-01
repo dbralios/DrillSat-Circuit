@@ -1,2 +1,2 @@
 # DrillSat-Circuit
-The circuit consists of three boards. PCB1 connects an Arduino Pro Mini, an SD socket and a UV sensor (ML8511). PCB2 connects an XBee, the Solar Charge and a BMP circuit. The Solar Charger is a modified and shrunk version of the Adafruit version. 
+The circuit consists of three boards. PCB1 connects an Arduino Pro Mini, an SD socket and a UV sensor (ML8511). PCB2 connects an XBee, the Solar Charger and a BMP sensor. The Solar Charger is a modified and shrunk version of the Adafruit board. 
