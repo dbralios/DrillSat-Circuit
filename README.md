@@ -1,2 +1,22 @@
-# DrillSat-Circuit
+# White Noise
+
+[White Noise](fb.com/WhiteNoiseGRE) is a space-engineering team from the National Technical University of Athens and currently consists of 6 members ( in alphabetical order ) :
+
+* Dimitris Bralios 
+* Chariton Charitonidis
+* Iasonas Nikolaou
+* Spyros Pavlatos
+* George Rapakoulias
+* Miltiadis Stouras
+
+Our team won 1st prize in the [CanSat in Greece 2018](cansat.gr) competition.
+
+# DrillSat
+
+![DrillSat](DrillSat.jpg?raw=true "DrillSat")
+
+Our goal was to develop a CanSat that can help in exploring new planets, as a part of our idea to use CubeSats in space exploration. Specifically, our CanSat, after a successful landing with the parachute, is able to use its [leg mechanism](https://www.youtube.com/watch?v=kTSUgSXn8OM) and rise into a position from which it can dig its drills to the ground and measure the soil's moisture with a sensor we developed.
+
+# Circuit 
+
 The circuit consists of three boards. PCB1 connects an Arduino Pro Mini, an SD socket and a UV sensor (ML8511). PCB2 connects an XBee, the Solar Charger and a BMP sensor. The Solar Charger is a modified and shrunk version of the Adafruit board. 
