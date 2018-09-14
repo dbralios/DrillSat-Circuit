@@ -20,3 +20,5 @@ Our goal was to develop a CanSat that can help in exploring new planets, as a pa
 # Circuit 
 
 The circuit consists of three boards. PCB1 connects an Arduino Pro Mini, an SD socket and a UV sensor (ML8511). PCB2 connects an XBee, the Solar Charger and a BMP sensor. The Solar Charger is a modified and shrunk version of the Adafruit board. 
+
+PCB1 and PCB2 were designed on fritzing while the solar charger was designed on EAGLE.
