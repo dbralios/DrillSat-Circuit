@@ -33,11 +33,19 @@ The UV light sensor used is ML8511 mounted on a board. Equipped with an internal
 ### Pressure & Temperature
 The sensor used to mesure temperature and barometric pressure is BMP280. The interface used to communicate with the microctroller is I2C. The pressure and temperature data, using the barometric formula, can give the current height with an accuracy of 1m. The operating pressure range is up to 9000m above sea level and from -40C to 85C regarding the temperature range, while the typical current draw is 2.7uA. 
 
+### Conductivity Sensor
+
+The conductivity sensor of the ground is implemented as a voltage divider. 
+
+### GPS
+
+The GPS module used is the LEA-6H, which is mounted on the top of the CanSat. Typical supply current is 41mA and 47mA during the acquisition phase and the horizontal accuracy is 2.5m.
+
 ## Communication & Data Handling
 
 ### Microcontroller
 
-The selected microcontroller board is the Arduino Pro Mini, using the ATmega328P, an 8-bit AVR microprocessor. It runs at 3.3V and 8MHz and has 14 input/ouput pins, 6 of them analog. The available program memory size is 32KByte, as well as 1024 Bytes of non volatile EEPROM memory, used to make the CanSat state-aware after possible power offs.
+The selected microcontroller board is the Arduino Pro Mini, using the ATmega328P, an 8-bit AVR microprocessor. It runs at 3.3V and 8MHz and has 14 input/output pins, 6 of them analog. The available program memory size is 32KByte, as well as 1024 Bytes of non volatile EEPROM memory, used to make the CanSat state-aware after possible power offs.
 
 ## Power Subsystem
 
