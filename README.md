@@ -19,7 +19,9 @@ Our goal was to develop a CanSat that can help in exploring new planets, as a pa
 
 # Electronics System 
 
-The circuit consists of three boards. PCB1 connects an Arduino Pro Mini, an SD socket and a UV sensor (ML8511). PCB2 connects an XBee, the Solar Charger and a BMP sensor. The Solar Charger is a modified and shrunk version of the Adafruit board. 
+The electronics system of the CanSat is comprised of an Arduino microcontroller, a UV sensor, a pressure and temperature sensor, a GPS, an XBee RF module, a conductivity sensor  and powered by a LiPo battery and four solar panels. The system apart from the battery the solar panels and the GPS, has to fit on top of two legs of the CanSat inside a space of 7x35x51mm. Due to that two PCBs were designed so the electronics can be mounted onto them. Also the structure has to be robust and survive any stresses, as well as last running continuously for 4 hours, constricting the power budget.
+
+We have three boards on this repo. PCB1 connects an Arduino Pro Mini, an SD socket and a UV sensor (ML8511). PCB2 connects an XBee, the Solar Charger and a BMP sensor. The Solar Charger is a modified and shrunk version of the Adafruit board. 
 
 PCB1 and PCB2 were designed on fritzing while the solar charger was designed on EAGLE.
 
