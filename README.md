@@ -30,3 +30,7 @@ The UV light sensor used is ML8511 mounted on a board. Equipped with an internal
 
 ### Pressure & Temperature
 The sensor used to mesure temperature and barometric pressure is BMP280. The interface used to communicate with the microctroller is I2C. The pressure and temperature data, using the barometric formula, can give the current height with an accuracy of 1m. The operating pressure range is up to 9000m above sea level and from -40C to 85C regarding the temperature range, while the typical current draw is 2.7uA. 
+
+## Power Subsystem
+
+A Polymer Lithium Ion battery, charged by four solar panels, is powering the CanSat. The battery has a voltage output of 3.7V and a capacity of 980mAh. Four 30.5mm by 58.5mm solar panels connected in serially, are used to charge the battery through the MCP73871. Then a low-dropout regulator drops the voltage down to 3.3V powering every piece of electronics, except for the GPS which has an onboard regulator and the the three motors.
