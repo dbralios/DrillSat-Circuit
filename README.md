@@ -35,7 +35,7 @@ The sensor used to mesure temperature and barometric pressure is BMP280. The int
 
 ### Conductivity Sensor
 
-The conductivity sensor of the ground is implememted as a voltage divider. Two high speed steel drills are used space 18.2mm apart that penetrate 20mm in depth. One drill is connected to the ground voltage level while the other to +3.3V level through a 10KOhm resistor. Then the second drill is connected to an analogue pin of the microcontroller, as a result given the voltage at that pin and the resistance of the drills, we can specify the resistance between them.
+The conductivity sensor of the ground is implemented as a voltage divider. Two high speed steel drills are used space 18.2mm apart that penetrate 20mm in depth. One drill is connected to the ground voltage level while the other to +3.3V level through a 10KOhm resistor. Then the second drill is connected to an analogue pin of the microcontroller, as a result given the voltage at that pin and the resistance of the drills, we can specify the resistance between them.
 
 ### GPS
 
