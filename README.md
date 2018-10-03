@@ -47,6 +47,10 @@ The GPS module used is the LEA-6H, which is mounted on the top of the CanSat. Ty
 
 The selected microcontroller board is the Arduino Pro Mini, using the ATmega328P, an 8-bit AVR microprocessor. It runs at 3.3V and 8MHz and has 14 input/output pins, 6 of them analog. The available program memory size is 32KByte, as well as 1024 Bytes of non volatile EEPROM memory, used to make the CanSat state-aware after possible power offs.
 
+### RF Module
+
+The RF module used for communication with the ground station is the XBee Pro S5 operating at 868MHz. It runs on 3.3 V consuming 60 mA at stand-by mode and 200 mA on packet emission and has a sensitivity of -112 dBm. It is used with an external antenna with 3 dBi gain. The same XBee module is also used on the ground station. The two modules are programmed to operate on AT Mode with ground station’s XBee being the coordinator and cansat’s XBee a router. Both modules transmit at a power of 25mW which is the legal local limit at 868MHz.
+
 ## Power Subsystem
 
 A Polymer Lithium Ion battery, charged by four solar panels, is powering the CanSat. The battery has a voltage output of 3.7V and a capacity of 980mAh. Four 30.5mm by 58.5mm solar panels connected in serially, are used to charge the battery through the MCP73871. Then a low-dropout regulator drops the voltage down to 3.3V powering every piece of electronics, except for the GPS which has an onboard regulator and the the three motors.
